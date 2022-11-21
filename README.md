@@ -9,6 +9,6 @@ Currently (11/21) contains a MNIST setup including scripts for:
 and saved objects:
 
 * ``mnist_cnn.pt`` Trained predictor as Pytorch Model of the class defined in ``main.py`` (2 epochs).
-* ``<split>_activations.pt`` DataFrame containing the activations of the last layer (size 128) before the softmax (for each image).
-* ``<split>_log_softmax.pt`` DataFrame with softmax activations for each image.
-* ``<split>_labels.pt`` DataFrame with labels.
+* ``<split>_activations.csv`` Containing the activations of the last layer (size 128) before the softmax (for each image).
+* ``<split>_log_softmax.csv`` Softmax activations for each image.
+* ``<split>_labels.csv`` Labels.
